@@ -13,4 +13,4 @@ ngrok authtoken $NGROK_TOKEN
 
 # Start ngrok service and redirect output to a log file
 echo "start ngrok service"
-ngrok tcp -timeout 2h 2222 log=stdout > ngrok.log
+ngrok tcp 22 --log=stdout > ngrok.log
