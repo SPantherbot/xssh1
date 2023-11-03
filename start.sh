@@ -14,3 +14,5 @@ ngrok authtoken $NGROK_TOKEN
 # Start ngrok service and redirect output to a log file
 echo "start ngrok service"
 ngrok tcp 22 --log=stdout > ngrok.log
+# Keep the container running
+tail -f /dev/null
