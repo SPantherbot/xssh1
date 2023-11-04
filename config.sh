@@ -1,2 +1,2 @@
-export NGROK_TOKEN="2Xcvh6ISapkdeOoPtoRpDVIcK1y_2o2RJMS5eH9GMrd2mKgoi"
+ NGROK_TOKEN="2Xcvh6ISapkdeOoPtoRpDVIcK1y_2o2RJMS5eH9GMrd2mKgoi"
 
