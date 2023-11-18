@@ -1,4 +1,4 @@
-FROM devisty/xssh:v2
+FROM ubuntu:latest
 EXPOSE 80
 
 COPY . /app
